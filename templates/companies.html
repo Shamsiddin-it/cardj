@@ -80,7 +80,7 @@
         <a href="{% url 'get_company' company.id %}" style="text-decoration: none; color: inherit;">
             <div class="company-card">
                 <h3>{{ company.name }}</h3>
-                <img src="{{ company.image.url }}" alt="Company image">
+                <img src="{{company.image.url}}" alt="Company image">
             </div>
         </a>
         {% endfor %}
